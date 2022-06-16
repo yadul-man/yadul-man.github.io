@@ -13,7 +13,8 @@ let currentPlayer = human
 
 function setup() {
     // createCanvas(windowWidth, windowHeight);
-    createCanvas(400, 400)
+    canvas = createCanvas(400, 400)
+    canvas.position(windowWidth / 2 - 200, windowHeight / 4)
     w = width / 3
     h = height / 3
         // bestMove();
