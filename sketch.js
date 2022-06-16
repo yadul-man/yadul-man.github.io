@@ -12,6 +12,7 @@ let human = 'O'
 let currentPlayer = human
 
 function setup() {
+    // createCanvas(windowWidth, windowHeight);
     createCanvas(400, 400)
     w = width / 3
     h = height / 3
